@@ -1,0 +1,25 @@
+.projectcontainer{
+    padding-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+.projectheading{
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+}
+.projectheading2{
+    padding-left: 5px;
+    color:#4E4FEB;
+}
+.projectinnercont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projecttext{
+    width: 80%;
+    color: white;
+    font-size: 1.7rem;
+    padding-top: 20px;
+}
