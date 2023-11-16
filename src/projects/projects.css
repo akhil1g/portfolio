@@ -7,19 +7,79 @@
     font-weight: bold;
     color: white;
     font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .projectheading2{
     padding-left: 5px;
     color:#4E4FEB;
 }
 .projectinnercont{
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 .projecttext{
-    width: 80%;
     color: white;
     font-size: 1.7rem;
     padding-top: 20px;
+}
+.projectouterbox{
+    padding-top: 20px;
+    display: flex;
+    /* background-color: #068FFF; */
+    height: 500px;
+    width: fit-content;
+    margin-top: 20px;
+    justify-content: center;
+    width: 100%;
+}
+.projectcard{
+    display: flex;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.projectcard:before,.projectcard:after{
+  position: absolute;
+  top: 0;
+  width: 80px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+.projectcard:before{
+  left: 0;
+  background: linear-gradient(to left,transparent,black);
+}
+.projectcard:after{
+  right: 0;
+  background: linear-gradient(to right,transparent,black);
+}
+.projectcard:hover .pscroll{
+  animation-play-state: paused;
+}
+.pscroll{
+  height: 100%;
+  animation: slide 10s infinite linear;
+  display: flex;
+  width: fit-content  ;
+}
+
+/* .cardp{
+    height: 300px;
+    width: 100%;
+}
+.cardp:hover{
+  opacity: 0;
+}
+   */
+
+@keyframes slide {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
