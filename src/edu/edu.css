@@ -1,0 +1,65 @@
+.educont{
+    padding-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+.eduheading{
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 15px;
+}
+.eduheading2{
+    color:#4E4FEB;
+}
+.edubox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.edubox1{
+    align-items: left;
+    width: 70%;
+    background: white;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+}
+.clglogo{
+    left: 0;
+    width: fit-content;
+    border-radius: 20px;
+}
+.edulogo{
+    padding: 20px;
+    padding-left: 30px;
+    width: 130px;
+    border-radius: 20px;
+}
+.clginfo{
+    text-align: center;
+    width: 100%;
+}
+.clgheading{
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.clgdegree, .clgbranch, .clgyear, .clgcpi{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 0;
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 2px;
+}
+.edubox1:hover{
+    box-shadow: white 0px 0px 15px 5px;
+    cursor: pointer;
+}
+.edubottom{
+    margin-bottom: 50px;
+}

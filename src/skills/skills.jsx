@@ -19,7 +19,7 @@ export default function Skills()
 {
     return(
         <div className="skillscont">
-        <div className="skillheading">My <span className="skillheading2">Skills</span></div>
+        <div className="skillheading">Technical <span className="skillheading2">Skills</span></div>
         <div className="outerskillbox">
         <div className="skilliconsbox">
             <div className="skillsinnerbox">

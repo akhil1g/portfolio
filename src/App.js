@@ -3,6 +3,8 @@ import Intro from './intro/intro';
 import Navbar from './navbar/navbar';
 import Skills from './skills/skills';
 import Projects from './projects/projects';
+import Exp from './exp/exp';
+import Edu from './edu/edu';
 function App() {
   return (
     <body>
@@ -19,6 +21,8 @@ function App() {
       <Intro/>
       <Skills />
       <Projects />
+      <Exp />
+      <Edu />
     </div>
     </body>
   );
