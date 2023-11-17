@@ -1,0 +1,66 @@
+.aboutcont{
+    padding-top: 80px;
+    width: 100%;
+    text-align: center;
+}
+.abtheading{
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.abtheading2{
+    padding-left: 5px;
+    color:#4E4FEB;
+}
+.abtbox
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.abtinnerbox{
+    display: flex;
+    width: 80%;
+    padding-top: 40px;
+}
+.abtimgcont{
+    width: 45%;
+}
+.abtimg{
+    height: 280px;
+    border-radius: 40px;
+    margin-left: 70px;
+}
+.abtinfocont{
+    width: 70%;
+    padding-top: 20px;
+    text-align: left    ;
+}
+.abtinfoh1{
+    font-weight: bold;
+}
+.abtinfoh1, .abtinfoh2, .abtinfoh3{
+    text-align: left;
+    padding-left: 18%;
+    color: white;
+    padding-top: 5px;
+    font-size: 1.3rem;
+}
+
+.resume{
+    margin-top: 40px;
+    margin-left: 18%;
+    height: 50px;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    background-image: linear-gradient(to left,white,#6767f5);
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+.resume:hover{
+    box-shadow: 5px 5px 10px 0 white;
+}

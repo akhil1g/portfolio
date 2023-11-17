@@ -12,10 +12,11 @@
     display: flex;
 }
 .nav-heading{
+    cursor: pointer;
     display: flex;
     color:  white;
     font-size: 2rem;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-top: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

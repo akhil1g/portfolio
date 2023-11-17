@@ -3,6 +3,8 @@ import './contact.css';
 export default function Contact()
 {
     return(
-        <div></div>
+        <div className="contact-cont">
+            
+        </div>
     );
 }

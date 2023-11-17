@@ -16,7 +16,7 @@ export default function Intro()
                     sequence={[
                     "I'm a Programmer",1000,
                     "I'm a Web Developer",1000,
-                    "I'm a Designer",1000,]}
+                    ,]}
                     speed={50}
                     repeat={Infinity}
                     style={{ fontSize: '2em' }}/>
