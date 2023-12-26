@@ -76,10 +76,55 @@
         flex-direction: column;
     }
     .circle-progress{
-        width: 70%;
+        width: 40%;
+        padding-left: 40px;
     }
     .sub-sub{
         display: flex;
         flex-direction: column;
     }
+    .main{
+        width: 100%;
+    }
+    .details{
+        font-size: 15px;
+        text-align: center;
+        padding-left: 20px;
+    }
+    .bar-progress{
+        width: 100%;
+    }
+    .sub-sub{
+        font-size: 16px;
+    }
   }
+  
+  /* @media only screen and (max-width: 900px) and (min-width:600px) {
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .circle-progress{
+        width: 30%;
+        padding-left: 40px;
+    }
+    .sub-sub{
+        display: flex;
+        flex-direction: column;
+    }
+    .main{
+        width: 100%;
+    }
+    .details{
+        font-size: 15px;
+        text-align: center;
+        padding-left: 20px;
+    }
+    .bar-progress{
+        width: 50%;
+    }
+    .sub-sub{
+        font-size: 16px;
+    }
+  } */
+  

@@ -25,7 +25,6 @@
 .projectouterbox{
     padding-top: 20px;
     display: flex;
-    /* background-color: #068FFF; */
     height: 500px;
     width: fit-content;
     margin-top: 20px;
@@ -66,14 +65,7 @@
   width: fit-content  ;
 }
 
-/* .cardp{
-    height: 300px;
-    width: 100%;
-}
-.cardp:hover{
-  opacity: 0;
-}
-   */
+
 
 @keyframes slide {
   from {
@@ -81,5 +73,21 @@
   }
   to {
     transform: translateX(-100%);
+  }
+}
+@media screen and (min-width:600px) and (max-width:900px) {
+  .projectheading{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width:600px) {
+  .projectheading {
+    font-size: 30px;
+  }
+  .projecttext {
+    font-size: 25px;
+  }
+  .projectouterbox{
+    height: 500px;
   }
 }

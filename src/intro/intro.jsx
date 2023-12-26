@@ -2,15 +2,21 @@ import React from "react";
 import { TypeAnimation } from 'react-type-animation';
 import './intro.css';
 import Self from "./image";
+import { Reveal } from "../animations/Animations";
 export default function Intro()
 {
     return (
         <div className="intro-cont">
             <div className="intro-sect">
+                <Reveal>
                 <div className="introheading">
                     Hi there,
                 </div>
-                <div className="introheading2">I'm Akhil <div className="introcolor">Gupta</div></div>
+                </Reveal>
+                <Reveal>
+                <div className="introheading2">I'm Akhil <span className="introcolor">Gupta</span></div>
+                </Reveal>
+                <Reveal>
                 <div className="introtypewriter">
                     <TypeAnimation
                     sequence={[
@@ -21,6 +27,7 @@ export default function Intro()
                     repeat={Infinity}
                     style={{ fontSize: '2em' }}/>
                 </div>
+                </Reveal>
             </div>
             <div className="img-cont">
                 <div className="img-sect">

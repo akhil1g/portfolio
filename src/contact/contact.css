@@ -1,0 +1,51 @@
+.contact-cont{
+    width: 100%;
+    background-color: white;
+    height: 400px;
+    display: flex;
+}
+.contactcont1{
+    width: 60%;
+}
+.contactcont2{
+    width: 40%;
+    display: flex;
+}
+.contactheading{
+    font-size: 3rem;
+    padding-left: 15%;
+    height: 100px;
+    padding-top: 5%;
+    display: flex;
+    font-weight: bold;
+}
+.contactheading2{
+    color: #4E4FEB;
+    padding-left: 10px;
+}
+.contactcontent
+{
+     padding-left: 15%;
+     font-size: 1.5rem;
+     font-weight: lighter;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contcontentbox{
+    padding-left: 15%;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    padding-top: 20px;
+    display: flex;
+}
+.links{
+    width: 100%;
+    display: flex;
+}
+.sociallinks,.codinglinks{
+    width: 50%;
+    height: 100px;
+}
+.icon{
+    padding-left: 30%;
+    padding-top: 20px;
+}

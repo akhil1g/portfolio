@@ -8,6 +8,7 @@ import Experience from './pages/Experience/Experience.jsx'
 import Education from './pages/Education/Education.jsx'
 import CodingP from './pages/CodingProfiles/CodingP.jsx'
 import { BrowserRouter,Route, Routes} from 'react-router-dom'
+
 function App() {
   return (
     <body>

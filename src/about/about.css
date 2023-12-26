@@ -64,3 +64,67 @@
 .resume:hover{
     box-shadow: 5px 5px 10px 0 white;
 }
+
+@media screen and (min-width:800px) and (max-width: 1000px) {
+    .abtheading{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .abtheading{
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    .abtimg{
+        height: 180px;
+        margin-left: 20px;
+    }
+    .abtimgcont{
+        padding-top: 20px;
+    }
+    .abtinfoh1, .abtinfoh2, .abtinfoh3{
+        font-size: 15px;
+    }
+    .resume{
+        margin-top: 20px;
+        margin-left: 18%;
+        height: 30px;
+        width: 80px;
+        border-radius: 5px;
+        font-size: 10px;
+        font-weight: 600;
+        background-image: linear-gradient(to left,white,#6767f5);
+        color: black;
+        cursor: pointer;
+        border: none;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 600px) {
+    .abtheading{
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    .abtimg{
+        height: 200px;
+        margin-left: 20px;
+    }
+    .abtimgcont{
+        padding-top: 20px;
+    }
+    .abtinfoh1, .abtinfoh2, .abtinfoh3{
+        font-size: 18px;
+    }
+    .resume{
+        margin-top: 30px;
+        margin-left: 18%;
+        height: 40px;
+        width: 100px;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 600;
+        background-image: linear-gradient(to left,white,#6767f5);
+        color: black;
+        cursor: pointer;
+        border: none;
+    }
+}

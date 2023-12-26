@@ -28,3 +28,13 @@
     display: flex;
     width: 70%;
 }
+@media screen and (max-width: 800px) and (min-width: 600px){
+   .cdheading{
+    font-size: 30px;
+   }
+}
+@media screen and (max-width: 600px){
+   .cdheading{
+    font-size: 30px;
+   }
+}

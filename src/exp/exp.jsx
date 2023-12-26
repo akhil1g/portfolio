@@ -1,11 +1,13 @@
 import React from "react";
 import './exp.css';
 import Sap from './saplabs.jfif';
+import { Reveal } from "../animations/Animations";
 export default function Exp()
 {
     return(
         <div className="expcont">
             <div className="expheading">Experi<span className="expheading2">ence</span></div>
+            <Reveal>
             <div className="timeline">
                 <div className="expbox expleftbox">
                     <img className="expimg" src={Sap}></img>
@@ -17,6 +19,7 @@ export default function Exp()
                     </div>
                 </div>
             </div>
+            </Reveal>
         </div>
     );
 }

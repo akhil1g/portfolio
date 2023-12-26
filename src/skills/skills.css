@@ -41,3 +41,13 @@
     padding-left: 5px;
     color:#4E4FEB;
 }
+@media screen and (max-width: 600px) {
+    .skillheading{
+        font-size: 30px;
+    }
+}
+@media screen and (min-width:600px) and  (max-width:900px) {
+    .skillheading{
+        font-size: 40px;
+    }
+}

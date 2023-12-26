@@ -3,6 +3,7 @@
     align-items: center;
     padding-top: 100px;
     text-align: center;
+    width: 100%;
     justify-content: center;
 }
 .intro-sect{
@@ -29,8 +30,6 @@
     margin-top: 30px;
     padding-right: 50px;
     width: 300px;
-    /* border-radius: 150px; */
-    /* border:  2px solid wheat;    */
 }
 .introtypewriter{
     color: white;
@@ -40,4 +39,49 @@
     padding-left: 5px;
     color:#4E4FEB;
     display: flex;
+}
+@media screen and (min-width:600px) and (max-width: 800px) {
+    .introheading{
+        font-size: 30px;
+    }    
+    .img-cont{
+        width: 30%;
+        height: 300px;
+    }
+    .introheading2{
+        font-size: 30px;
+    }
+    .introtypewriter{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:800px) and (max-width: 1000px) {
+    .introheading{
+        font-size: 35px;
+    }    
+    .img-cont{
+        width: 30%;
+        height: 300px;
+    }
+    .introheading2{
+        font-size: 35px;
+    }
+    .introtypewriter{
+        font-size: 20px;
+    }
+}
+@media screen and  (max-width: 600px) {
+    .introheading{
+        font-size: 25px;
+    }    
+    .img-cont{
+        width: 50%;
+        height: 250px;
+    }
+    .introheading2{
+        font-size: 25px;
+    }
+    .introtypewriter{
+        font-size: 15px;
+    }
 }

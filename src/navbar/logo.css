@@ -5,3 +5,10 @@
     background-color: black;
     cursor: pointer;
 }
+@media screen and (min-width:200px) and (max-width: 600px) {
+    .coding-icon{
+        padding-left: 2%;
+        padding-top: 10px;
+    }
+    
+}

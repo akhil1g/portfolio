@@ -6,6 +6,7 @@ import Exp from "./exp/exp";
 import Skills from "./skills/skills";
 import Intro from "./intro/intro";
 import Projects from "./projects/projects";
+import Contact from "./contact/contact";
 export default function Main()
 {
     return(
@@ -17,6 +18,7 @@ export default function Main()
             <Projects />
             <Exp />
             <Edu />
+            <Contact />
         </div>
     );
 }

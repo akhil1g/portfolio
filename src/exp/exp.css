@@ -65,7 +65,6 @@
     top: 40%;
     z-index: 1;
     right: -12%;
-    /* right: -60px; */
 }
 .timeline:after{
     content: '';
@@ -105,3 +104,39 @@
         height: 100%;
     }
 }
+
+@media screen and (max-width:900px) {
+    .expheading{
+        font-size: 40px;
+    }
+    .timeline{
+        width: 95%;
+    }
+    .expbox{
+        width: 43%;
+    }
+    .exptextbox{
+        padding: 10px 10px;
+    }
+    .expleftbox .expimg{
+        right: -20%;
+    }
+}
+/* @media screen  (max-width:900px) {
+
+    .expheading{
+        font-size: 40px;
+    }
+    .timeline{
+        width: 95%;
+    }
+    .expbox{
+        width: 43%;
+    }
+    .exptextbox{
+        padding: 10px 10px;
+    }
+    .expleftbox .expimg{
+        right: -20%;
+    }
+} */

@@ -1,6 +1,6 @@
 .skillicon{
     padding: 20px;
-    height: 90px;
+    height: 85px;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: 10px;
@@ -16,4 +16,14 @@
 .skillicon:hover{
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 20px 20px rgba(187, 60, 10, 0.4);
+}
+@media screen and (max-width: 600px) {
+  .skillicon{
+    height: 40px;
+  }
+}
+@media screen and (max-width: 900px) and (min-width:600px) {
+  .skillicon{
+    height: 60px;
+  }
 }

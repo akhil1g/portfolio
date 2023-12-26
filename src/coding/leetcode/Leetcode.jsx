@@ -6,10 +6,56 @@ import Logo from './leetcode.ico'
 import { CiStar } from "react-icons/ci";
 import { FiAward } from "react-icons/fi";
 import { IoShieldCheckmarkOutline } from "react-icons/io5";
-
+import React,{useEffect, useState} from 'react';
+import { useQuery, gql } from '@apollo/client';
+const Name="akhilg11";
 
 function Leet(){
-    // const percentage=66;
+    const [totalq,settotalq]=useState('');
+    const [solvedq,setsolvedq] =useState('');
+    const [totaleasy,settotaleasy]=useState("");
+    const [easysolved,seteasysolved]=useState('');
+    const [totalmedium,settotalmed]=useState('');
+    const [solvedmed,setsolvedmed]=useState('');
+    const [totalhard,settotalhard]=useState("");
+    const [solvedhard,setsolvedhard]=useState("");
+    const [rep,setrep]=useState("");
+    const [circularval,setcircularval]=useState("");
+    const [easyval,seteasyval]=useState("");
+    const [medval,setmedval] =useState("");
+    const [hardval,sethardval]=useState("");
+
+    async function setCard(){
+        const req=await fetch("https://leetcodestats.cyclic.app/akhilg11");
+        const data=await req.json();
+        settotalq(data.totalQuestions);
+        setsolvedq(data.totalSolved);
+        settotaleasy(data.totalEasy);
+        seteasysolved(data.easySolved);
+        settotalmed(data.totalMedium);
+        setsolvedmed(data.mediumSolved);
+        settotalhard(data.totalHard);
+        setsolvedhard(data.hardSolved);
+        setrep(data.reputation);
+        setCVal();
+
+    }
+    function setCVal()
+    {
+        const per=parseInt(solvedq*100)/parseInt(totalq);
+        setcircularval(per);
+        const per1=parseInt(easysolved*100)/parseInt(totaleasy);
+        seteasyval(per1);
+        const per2=parseInt(solvedmed*100)/parseInt(totalmedium);
+        setmedval(per2);
+        const per3=parseInt(solvedhard*100)/parseInt(totalhard);
+        sethardval(per3);
+    }
+    
+    useEffect(function(){
+        setCard();
+        // Temp();
+    })
     return (
         <div className="main"> 
             <div className='head'>
@@ -26,8 +72,8 @@ function Leet(){
             <div className="content">
                 <div className="circle-progress">
                     <CircularProgressbar 
-                        value={60} 
-                        text={`10`}
+                        value={circularval} 
+                        text={solvedq}
                         minValue={0}
                         maxValue={100}
                        
@@ -56,10 +102,10 @@ function Leet(){
                     <div className='sub'>
                         <div className='sub-sub'>
                             <div>Easy</div>
-                            <div>191/245</div>
+                            <div>{easysolved}/{totaleasy}</div>
                         </div>
                         <ProgressBar 
-                            completed={10}
+                            completed={easyval}
                             maxCompleted={100}
                             baseBgColor={'#294D35'}
                             bgColor={'#00B8A3'}
@@ -70,10 +116,10 @@ function Leet(){
                     <div className='sub'>
                         <div className='sub-sub'>
                             <div>Medium</div>
-                            <div>191/245</div>
+                            <div>{solvedmed}/{totalmedium}</div>
                         </div>
                         <ProgressBar
-                            completed={10}
+                            completed={medval}
                             maxCompleted={100}
                             baseBgColor={'#5E4E26'}
                             bgColor={'#FFC01E'}
@@ -84,10 +130,10 @@ function Leet(){
                     <div className='sub'>
                         <div className='sub-sub'>
                             <div>Hard</div>
-                            <div>191/245</div>
+                            <div>{solvedhard}/{totalhard}</div>
                         </div>
                         <ProgressBar
-                            completed={10}
+                            completed={hardval}
                             maxCompleted={100}
                             baseBgColor={'#5A302F'}
                             bgColor={'#EF4743'}

@@ -24,10 +24,7 @@ export default function Navbar()
     {
         window.location.href='/education';
     }
-    // function handlemain()
-    // {
-    //     window.location.href='/';
-    // }
+  
     function handlecoding(){
         window.location.href='/coding';
     }

@@ -1,6 +1,8 @@
 import React from "react";
 import './coding.css';
 import Leet from "./leetcode/Leetcode";
+import Codeforces from "./cf/Codeforces";
+import { Reveal } from "../animations/Animations";
 export default function Coding(){
     return(
         <div className="codingcont">
@@ -8,6 +10,7 @@ export default function Coding(){
             <div className="cdbox">
                 <div className="cdinnerbox">
                     <Leet />
+                    {/* <Codeforces /> */}
                 </div>
             </div>
         </div>

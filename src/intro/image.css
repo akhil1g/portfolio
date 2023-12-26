@@ -1,10 +1,15 @@
 .image{
     height: 100%;
-    /* border-radius: 50px; */
     border-radius: 100px;
     border: 2px solid white;
     box-shadow:
     0 0 2px 2px #fff,  /* inner white */
     0 0 2px 2px rgb(156, 153, 156), /* middle magenta */
     0 0 2px 2px rgb(30, 32, 32); 
+}
+@media screen and (min-width:600px) and (max-widht: 800px) {
+    .image{
+        border-radius: 10px;
+    }
+    
 }

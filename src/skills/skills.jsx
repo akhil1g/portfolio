@@ -15,31 +15,38 @@ import GithubLogo from './icons/github-icon.png'
 import GitLogo from './icons/git-icon.png'
 import PostmanLogo from './icons/postman-icon.png'
 import FigmaLogo from './icons//figma-icon.png'
+import { Reveal } from "../animations/Animations";
 export default function Skills()
 {
     return(
         <div className="skillscont">
+            <Reveal>
         <div className="skillheading">Technical <span className="skillheading2">Skills</span></div>
+        </Reveal>
+        <Reveal>
         <div className="outerskillbox">
         <div className="skilliconsbox">
             <div className="skillsinnerbox">
+            <Reveal>
             <Skill source={ReactLogo} alt="react-js" title="React"  />
             <Skill source={HtmlLogo} alt="Html" title="HTML" />
             <Skill source={CssLogo} alt="CSS" title="CSS" />
             <Skill source={JavascriptLogo} alt="Javascript" title="javascript" />
             <Skill source={NodejsLogo} alt="nodejs" title="nodejs" />
+            <Skill source={CppLogo} alt="C++" title="C++" />
+            <Skill source={CLogo} alt="C" title="C" />
             <Skill source={ExpressjsLogo} alt="expressjs" title="expressjs" />
             <Skill source={MongodbLogo} alt="mongodb" title="MongoDB" />
             <Skill source={MysqlLogo} alt="mySQL" title="mySQL" />
-            <Skill source={CppLogo} alt="C++" title="C++" />
-            <Skill source={CLogo} alt="C" title="C" />
             <Skill source={GithubLogo} alt="Github" title="Github" />
             <Skill source={GitLogo} alt="Git" title="Git" />
             <Skill source={FigmaLogo} alt="Figma" title="Figma" />
             <Skill source={PostmanLogo} alt="Postman" title="Postman" />
+            </Reveal>
             </div>
         </div>
         </div>
+        </Reveal>
         </div>
     );
 }
