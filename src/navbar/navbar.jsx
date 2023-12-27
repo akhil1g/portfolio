@@ -45,7 +45,7 @@ export default function Navbar()
                     <div className="navitem" onClick={handleproj}>Projects</div>
                     <div className="navitem" onClick={handleexp}>Experience</div>
                     <div className="navitem" onClick={handleedu}>Education</div>
-                    <div className="navitem" onClick={handleContactMe}>Contact Me</div>
+                    <div className="navitem" onClick={handleContactMe}>Contact</div>
                 </div>
         </div>
     );

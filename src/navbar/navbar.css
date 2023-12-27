@@ -41,7 +41,7 @@
     text-shadow: #4E4FEB;
     font-weight: bold;
 }
-@media screen and (min-width: 200px) and (max-width: 600px){
+@media screen and (min-width: 400px) and (max-width: 600px){
    .nav-heading-cont{
     font-size: 16px;
    }
@@ -58,7 +58,7 @@
     padding-right: 5px;
    }
 }
-@media screen and (min-width: 601px) and (max-width: 800px){
+@media screen and (min-width: 600px) and (max-width: 800px){
     .nav-heading-cont{
      font-size: 20px;
     }
@@ -74,4 +74,18 @@
      padding-left: 5px;
      padding-right: 5px;
     }
+ }
+ @media screen and (max-width:400px) {
+       .nav-heading{
+        font-size: 14px;
+        padding-left: 8px;
+       }
+       .nav-items{
+        width: 100%;
+       }
+       .navitem{
+        font-size: 8px;
+        padding-left: 5px;
+        padding-right: 2px;
+       }
  }

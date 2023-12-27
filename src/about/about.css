@@ -128,3 +128,23 @@
         border: none;
     }
 }
+@media screen and (max-width:400px) {
+    .abtinnerbox{
+        display: block;
+        padding-top: 10px;
+    }    
+    .abtimgcont{
+        width: 100%;
+    }
+    .abtimg{
+        margin-left: 0px;
+    }
+    .abtinfocont{
+        padding-left: 0px;
+        width: 100%;
+    }
+    .abtinfoh1, .abtinfoh2, .abtinfoh3{
+        font-size: 14px;
+        font-weight: lighter;
+    }
+}

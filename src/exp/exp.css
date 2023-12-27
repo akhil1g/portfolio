@@ -47,7 +47,6 @@
 }
 .exptextbox{
     padding: 20px 30px;
-    background: black;
     position: relative;
     font-size: 1rem;
     background: white;
@@ -128,7 +127,7 @@
     }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:900px) and (min-width:400px) {
     .expheading{
         font-size: 40px;
     }
@@ -143,5 +142,44 @@
     }
     .expleftbox .expimg{
         right: -20%;
+    }
+}
+@media screen and (max-width:400px) {
+    .expcont{
+        padding-top: 0px;
+    }
+    .expheading{
+        font-size: 30px;
+    }
+    .timeline{
+        width: 100%;
+        margin: 50px auto;
+    }
+    .expbox{
+        width: 75%;
+    }
+    .exptextbox{
+        padding: 10px 5px;
+        font-size: 15px;
+        box-shadow: white 0px 0px 15px;
+    }
+    .exprightbox{
+        left: 0%;
+    }
+    .timeline:after{
+        left: 90%;
+    }
+    .rightboxarrow{
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 15px solid white;
+        border-right: 0px;
+        left: 100.2%;
+    }
+    .exprightbox .expimg{
+        left: 102%;
+    }
+    .expleftbox .expimg{
+        right:-20%;
     }
 }

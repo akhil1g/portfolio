@@ -70,7 +70,7 @@
     flex-direction: row;
     justify-content: space-between;
 }
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .content{
         display: flex;
         flex-direction: column;
@@ -99,6 +99,13 @@
     }
   }
   
+  @media screen and (max-width:400px) {
+    .details{
+        width: 100%;
+        padding-left: 0px;
+    }
+    
+  }
   /* @media only screen and (max-width: 900px) and (min-width:600px) {
     .content{
         display: flex;

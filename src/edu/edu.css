@@ -63,7 +63,7 @@
 .edubottom{
     margin-bottom: 50px;
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:900px) and (min-width:400px){
      .eduheading{
         font-size: 40px;
      }    
@@ -82,5 +82,30 @@
      .clgdegree, .clgbranch, .clgyear, .clgcpi{
         font-size: 16px;
         padding-left: 10px;
+     }
+}
+@media screen and (max-width:400px) {
+    .edubox{
+        display: flex;
+        text-align: center;
+    }    
+    .edubox1{
+        width: 90%;
+        display: block;
+    }
+    .clglogo{
+        padding-left: 20%;
+    }
+    .clgheading{
+        font-size: 17px;
+    }
+    .clgdegree, .clgbranch, .clgyear, .clgcpi{
+        font-size: 14px;
+     }
+     .edulogo{
+        width: 120px;
+     }
+     .eduheading{
+        font-size: 30px;
      }
 }

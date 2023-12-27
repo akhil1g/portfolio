@@ -85,3 +85,32 @@
         font-size: 15px;
     }
 }
+@media screen and (max-width:400px) {
+    .intro-cont{
+        display: block;
+    }
+    .introheading{
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    .introheading2{
+        font-size: 22px;
+        padding-left: 15px;
+    }
+    .introtypewriter{
+        font-size: 15px;
+        font-weight: lighter;
+        padding-left: 15px;
+    }
+    .intro-sect{
+        width: 100%;
+    }
+    .img-cont{
+        width: 100%;
+    }
+    .img-sect{
+        width: 100%;
+        padding-right: 0px;
+    }
+    
+}
