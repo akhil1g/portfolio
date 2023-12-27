@@ -7,6 +7,7 @@ import MyProjects from './pages/MyProjects/MyProjects.jsx'
 import Experience from './pages/Experience/Experience.jsx'
 import Education from './pages/Education/Education.jsx'
 import CodingP from './pages/CodingProfiles/CodingP.jsx'
+import ContactMe from './pages/ContactMe/ContactMe.jsx';
 import { BrowserRouter,Route, Routes} from 'react-router-dom'
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <Route path='/projects' element={<MyProjects/>} />
         <Route path='/experience' element={<Experience/>} />
         <Route path='/education' element={<Education/>} />
+        <Route path='/contact' element={<ContactMe/>} />
       </Routes>
       </BrowserRouter>
     </div>

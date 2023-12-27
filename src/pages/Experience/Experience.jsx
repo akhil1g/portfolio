@@ -1,11 +1,13 @@
 import React from "react";
-import Navbar from "../../navbar/navbar";
 import Exp from "../../exp/exp";
+import Homebutton from '../homebutton/Homebutton.jsx'
 export default function Experience(){
     return (
         <div>
-            <Navbar/>
+            <br></br>
+            <br></br>
             <Exp/>
+            <Homebutton/>
         </div>
     )
 }

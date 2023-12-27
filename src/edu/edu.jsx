@@ -20,7 +20,7 @@ export default function Edu()
             <div className="edubox">
                 <div className="edubox1" onClick={handleonclick1}>
                     <div className="clglogo">
-                    <img src={Mnnit} className="edulogo"></img>
+                    <img src={Mnnit} className="edulogo" alt=""></img>
                     </div>
                     <div className="clginfo">
                     <div className="clgheading">Motilal Nehru National Institute Of Technology</div>
@@ -37,7 +37,7 @@ export default function Edu()
             <div className="edubox">
                 <div className="edubox1" onClick={handleonclick2}>
                     <div className="clglogo">
-                    <img src={St} className="edulogo"></img>
+                    <img src={St} className="edulogo" alt=""></img>
                     </div>
                     <div className="clginfo">
                     <div className="clgheading">St. Joseph's Sr. Sec. School, NTPC Dibiyapur</div>

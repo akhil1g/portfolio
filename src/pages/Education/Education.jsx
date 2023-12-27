@@ -1,12 +1,14 @@
 import React from "react";
-import Navbar from "../../navbar/navbar";
 import Edu from "../../edu/edu";
+import Homebutton from '../homebutton/Homebutton.jsx'
 export default function Education()
 {
     return(
         <div>
-            <Navbar/>
+            <br></br>
+            <br></br>
             <Edu/>
+            <Homebutton/>
         </div>
     )
 }

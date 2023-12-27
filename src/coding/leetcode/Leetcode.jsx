@@ -7,8 +7,6 @@ import { CiStar } from "react-icons/ci";
 import { FiAward } from "react-icons/fi";
 import { IoShieldCheckmarkOutline } from "react-icons/io5";
 import React,{useEffect, useState} from 'react';
-import { useQuery, gql } from '@apollo/client';
-const Name="akhilg11";
 
 function Leet(){
     const [totalq,settotalq]=useState('');
@@ -19,7 +17,7 @@ function Leet(){
     const [solvedmed,setsolvedmed]=useState('');
     const [totalhard,settotalhard]=useState("");
     const [solvedhard,setsolvedhard]=useState("");
-    const [rep,setrep]=useState("");
+    // const [rep,setrep]=useState("");
     const [circularval,setcircularval]=useState("");
     const [easyval,seteasyval]=useState("");
     const [medval,setmedval] =useState("");
@@ -36,7 +34,7 @@ function Leet(){
         setsolvedmed(data.mediumSolved);
         settotalhard(data.totalHard);
         setsolvedhard(data.hardSolved);
-        setrep(data.reputation);
+        // setrep(data.reputation);
         setCVal();
 
     }
@@ -149,7 +147,7 @@ function Leet(){
                 />
                 <div className='det-sub'>
                     <div>Contest Rating</div>
-                    <div>8888</div>
+                    <div>1806</div>
                 </div>
             </div>
             <div className="details">
@@ -158,7 +156,7 @@ function Leet(){
                 />
                 <div className='det-sub'>
                     <div>Max Rating </div>
-                    <div>8888</div>
+                    <div>1823</div>
                 </div>
                 
             </div>
@@ -168,7 +166,7 @@ function Leet(){
                 />
                 <div className='det-sub'>
                     <div>Attended </div>
-                    <div>8888</div>
+                    <div>24</div>
                 </div>
                 
             </div>

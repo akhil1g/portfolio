@@ -13,7 +13,7 @@ export default function About()
                 <div className="abtinnerbox">
                 <div className="abtimgcont">
                     <Reveal>
-                    <img src={Abtimg} className="abtimg"></img>
+                    <img src={Abtimg} className="abtimg" alt=""></img>
                     </Reveal>
                 </div>
                 <div className="abtinfocont">

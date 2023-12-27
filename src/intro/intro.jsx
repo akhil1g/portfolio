@@ -21,7 +21,7 @@ export default function Intro()
                     <TypeAnimation
                     sequence={[
                     "I'm a Programmer",1000,
-                    "I'm a Web Developer",1000,
+                    "I'm a Web Developer",1000
                     ,]}
                     speed={50}
                     repeat={Infinity}

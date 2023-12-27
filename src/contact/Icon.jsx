@@ -1,8 +1,8 @@
 import React from "react";
 import './icon.css'
-export default function({src,link})
+export default function Icon({src,link})
 {
     return (
-        <img src={src} className="iconlink"></img>
+        <img src={src} className="iconlink" onClick={()=>{window.open(link,"_blank")}} alt=""></img>
     );
 }

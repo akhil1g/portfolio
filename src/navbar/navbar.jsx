@@ -28,6 +28,10 @@ export default function Navbar()
     function handlecoding(){
         window.location.href='/coding';
     }
+    function handleContactMe()
+    {
+        window.location.href="/contact"
+    }
     return (
         <div className="navcont">
             <Logo/>
@@ -41,7 +45,7 @@ export default function Navbar()
                     <div className="navitem" onClick={handleproj}>Projects</div>
                     <div className="navitem" onClick={handleexp}>Experience</div>
                     <div className="navitem" onClick={handleedu}>Education</div>
-                    <div className="navitem">Contact Me</div>
+                    <div className="navitem" onClick={handleContactMe}>Contact Me</div>
                 </div>
         </div>
     );

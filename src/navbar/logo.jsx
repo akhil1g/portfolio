@@ -4,6 +4,6 @@ import './logo.css'
 export default function Logo()
 {
     return(
-        <img src={codingicon} className="coding-icon"></img>
+        <img src={codingicon} className="coding-icon" alt=""></img>
     )
 }

@@ -5,6 +5,6 @@ export default function Self()
 {
     return(
         
-        <img src={Image} className="image"></img>
+        <img src={Image} className="image" alt=""></img>
     );
 }

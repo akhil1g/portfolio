@@ -1,6 +1,5 @@
 import React from 'react';
 import './projectcard.css';
-import Git from './github.png';
 const PCard = ({src,heading,content,link}) => {
   return (
     <main className='cardouter'>
