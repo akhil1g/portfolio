@@ -17,7 +17,7 @@ function Leet(){
     const [solvedmed,setsolvedmed]=useState('');
     const [totalhard,settotalhard]=useState("");
     const [solvedhard,setsolvedhard]=useState("");
-    // const [rep,setrep]=useState("");
+    const [rep,setrep]=useState("");
     const [circularval,setcircularval]=useState("");
     const [easyval,seteasyval]=useState("");
     const [medval,setmedval] =useState("");
@@ -34,7 +34,7 @@ function Leet(){
         setsolvedmed(data.mediumSolved);
         settotalhard(data.totalHard);
         setsolvedhard(data.hardSolved);
-        // setrep(data.reputation);
+        setrep(data.reputation);
         setCVal();
 
     }
@@ -55,7 +55,7 @@ function Leet(){
         // Temp();
     })
     return (
-        <div className="main"> 
+        <div className="main" onClick={()=>{window.open("https://leetcode.com/akhilg11/","_blank")}}> 
             <div className='head'>
                 <img 
                     className='leet-img'

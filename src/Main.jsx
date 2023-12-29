@@ -7,6 +7,7 @@ import Skills from "./skills/skills";
 import Intro from "./intro/intro";
 import Projects from "./projects/projects";
 import Contact from "./contact/contact";
+import './Main.css'
 export default function Main()
 {
     return(

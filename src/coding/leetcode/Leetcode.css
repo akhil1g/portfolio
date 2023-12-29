@@ -6,6 +6,9 @@
     background-color: #282828;
     border-radius: 20px;
 }
+.main:hover{
+    cursor: pointer;
+}
 .head{
     color: white;
     font-size:x-large;

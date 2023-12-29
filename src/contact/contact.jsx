@@ -42,6 +42,17 @@ export default function Contact()
                          <Icon src={Cf} link="https://codeforces.com/profile/akhilg11"></Icon>
                     </div>
                 </div>
+                
+                </div>
+                <div className="visitcounter">
+                    <div className="counter">
+                        <div className="counterheading">Visits : </div>
+                        <a href="https://www.freecounterstat.com" title="visitor counter">
+                        <img src="https://counter7.optistats.ovh/private/freecounterstat.php?c=wul5fge6c5uayk582g799mwxr9pe59p1"
+                        border="0" title="visitor counter" alt="visitor counter" className="counticon">
+                        </img>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className="contactcont2">
