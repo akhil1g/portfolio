@@ -19,22 +19,32 @@ export default function About()
                 <div className="abtinfocont">
                     <div className="abtinfoh1">
                         <Reveal>
-                        I'm Akhil Gupta
+                        👋  I'm Akhil Gupta
                         </Reveal>
                     </div>
                     <div className="abtinfoh2">
                         <Reveal>
-                        Pre-Final Year ECE Grad at MNNIT-A
+                        📝 Pre-Final Year ECE Grad at MNNIT-A
                         </Reveal>
                     </div>
                     <div className="abtinfoh3">
                         <Reveal>
-                        Software Developer Intern at SAP Labs
+                        💼 Software Developer Intern at SAP Labs
                         </Reveal>
                     </div>
                     <div className="abtinfoh3">
                         <Reveal>
-                        Web Developer and Programming Enthusiast
+                        ⚡ Electronics Society Web Team Member
+                        </Reveal>
+                    </div>
+                    <div className="abtinfoh3">
+                        <Reveal>
+                       🔭 Astro Club Coordinator 
+                        </Reveal>
+                    </div>
+                    <div className="abtinfoh3">
+                        <Reveal>
+                        👨‍💻 Web Developer and Programming Enthusiast
                         </Reveal>
                     </div>
                     <Reveal>

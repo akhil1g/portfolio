@@ -1,8 +1,6 @@
 import React from "react";
 import './coding.css';
 import Leet from "./leetcode/Leetcode";
-
-
 export default function Coding(){
     return(
         <div className="codingcont">
@@ -12,7 +10,6 @@ export default function Coding(){
                     <Leet />
                 </div>
             </div>
-           
         </div>
     );
 }

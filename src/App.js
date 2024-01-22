@@ -9,7 +9,6 @@ import Education from './pages/Education/Education.jsx'
 import CodingP from './pages/CodingProfiles/CodingP.jsx'
 import ContactMe from './pages/ContactMe/ContactMe.jsx';
 import { BrowserRouter,Route, Routes} from 'react-router-dom'
-
 function App() {
   return (
     <body>
