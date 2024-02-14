@@ -3,6 +3,9 @@ import { TypeAnimation } from 'react-type-animation';
 import './intro.css';
 import Self from "./image";
 import { Reveal } from "../animations/Animations";
+import Insta from './icons/insta.png'
+import LinkedIn from './icons/linkedin.png'
+import Icon from "./icons";
 export default function Intro()
 {
     return (
@@ -28,6 +31,10 @@ export default function Intro()
                     style={{ fontSize: '2em' }}/>
                 </div>
                 </Reveal>
+                <div className="socialicons">
+                    <Icon src={Insta} link="https://www.instagram.com/akhil.gupta.5454?igsh=OGNzcjZjdmxweGQ0"></Icon>
+                    <Icon src={LinkedIn} link="https://www.linkedin.com/in/akhil-g-131923136?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"></Icon>
+                </div>
             </div>
             <div className="img-cont">
                 <div className="img-sect">
