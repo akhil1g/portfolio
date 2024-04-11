@@ -147,7 +147,7 @@ function Leet(){
                 />
                 <div className='det-sub'>
                     <div>Contest Rating</div>
-                    <div>1806</div>
+                    <div>1880</div>
                 </div>
             </div>
             <div className="details">
@@ -156,7 +156,7 @@ function Leet(){
                 />
                 <div className='det-sub'>
                     <div>Max Rating </div>
-                    <div>1823</div>
+                    <div>1880</div>
                 </div>
                 
             </div>
@@ -166,7 +166,7 @@ function Leet(){
                 />
                 <div className='det-sub'>
                     <div>Attended </div>
-                    <div>24</div>
+                    <div>29</div>
                 </div>
                 
             </div>

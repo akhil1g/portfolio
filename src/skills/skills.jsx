@@ -15,6 +15,8 @@ import GithubLogo from './icons/github-icon.png'
 import GitLogo from './icons/git-icon.png'
 import PostmanLogo from './icons/postman-icon.png'
 import FigmaLogo from './icons//figma-icon.png'
+import SolidityLogo from './icons/solidity.png'
+// import EthereumLogo from './icons/ethereum.png'
 import { Reveal } from "../animations/Animations";
 export default function Skills()
 {
@@ -33,6 +35,7 @@ export default function Skills()
             <Skill source={CssLogo} alt="CSS" title="CSS" />
             <Skill source={JavascriptLogo} alt="Javascript" title="javascript" />
             <Skill source={NodejsLogo} alt="nodejs" title="nodejs" />
+            <Skill source={SolidityLogo} alt="Solidity" title="Solidity" />
             <Skill source={CppLogo} alt="C++" title="C++" />
             <Skill source={CLogo} alt="C" title="C" />
             <Skill source={ExpressjsLogo} alt="expressjs" title="expressjs" />

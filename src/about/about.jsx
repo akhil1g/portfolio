@@ -48,7 +48,7 @@ export default function About()
                         </Reveal>
                     </div>
                     <Reveal>
-                    <button className="resume" onClick={()=> window.open("https://drive.google.com/file/d/1sBNIM0_zTI4ybbNIJZtVVfldoAdSjHUF/view", "_blank")}>Resume</button>
+                    <button className="resume" onClick={()=> window.open("https://drive.google.com/file/d/1X5nLKdmqQzsZpuiNvyxSueH3YvDV8jiH/view?usp=drive_linkw", "_blank")}>Resume</button>
                     </Reveal>
                     <div></div>
                 </div>

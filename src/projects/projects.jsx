@@ -5,6 +5,7 @@ import Morse from './morse.jpg';
 import Codetogether from './ct.jpg';
 import PW from './pw.jpg';
 import PCard from "./projectcard";
+import Chrome from "./chrome.webp";
 export default function Projects()
 {
     return(
@@ -17,6 +18,8 @@ export default function Projects()
                 <div className="pscroll">
                 <PCard src={PW} heading={"Password Manager"} content={"Password Manager application is a cutting-edge technology that has been developed to address the growing concerns surrounding password security and management"
                  } link={"https://github.com/akhil1g/PasswordManager"}/>
+                  <PCard src={Chrome} heading={"TabHub"} content={"Chrome tab manager extension which helps users to manage all their chrome tabs efficiently"
+                 } link={"https://github.com/akhil1g/TabManager"}/>
 
                  <PCard src={Morse} content={"Morse code encoding and decoding website"} heading={"Morse Coder"}
                   link={"https://github.com/akhil1g/morse"}/>
@@ -29,6 +32,8 @@ export default function Projects()
             <div className="pscroll">
                 <PCard src={PW} heading={"Password Manager"} content={"Password Manager application is a cutting-edge technology that has been developed to address the growing concerns surrounding password security and management"
                  } link={"https://github.com/akhil1g/PasswordManager"}/>
+                 <PCard src={Chrome} heading={"TabHub"} content={"Chrome tab manager extension which helps users to manage all their chrome tabs efficiently"
+                 } link={"https://github.com/akhil1g/TabManager"}/>
 
                  <PCard src={Morse} content={"Morse code encoding and decoding website"} heading={"Morse Coder"}
                   link={"https://github.com/akhil1g/morse"}/>

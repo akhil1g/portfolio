@@ -31,10 +31,12 @@ export default function Intro()
                     style={{ fontSize: '2em' }}/>
                 </div>
                 </Reveal>
+                <Reveal>
                 <div className="socialicons">
                     <Icon src={Insta} link="https://www.instagram.com/akhil.gupta.5454?igsh=OGNzcjZjdmxweGQ0"></Icon>
                     <Icon src={LinkedIn} link="https://www.linkedin.com/in/akhil-g-131923136?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"></Icon>
                 </div>
+                </Reveal>
             </div>
             <div className="img-cont">
                 <div className="img-sect">
