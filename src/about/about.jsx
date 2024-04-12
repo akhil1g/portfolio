@@ -29,7 +29,7 @@ export default function About()
                     </div>
                     <div className="abtinfoh3">
                         <Reveal>
-                        💼 Software Developer Intern at SAP Labs
+                        💼 Upcoming Software Developer Intern
                         </Reveal>
                     </div>
                     <div className="abtinfoh3">
