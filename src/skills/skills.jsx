@@ -17,6 +17,7 @@ import PostmanLogo from './icons/postman-icon.png'
 import FigmaLogo from './icons//figma-icon.png'
 import SolidityLogo from './icons/solidity.png'
 // import EthereumLogo from './icons/ethereum.png'
+import VercelLogo from './icons/vercel.svg'
 import { Reveal } from "../animations/Animations";
 export default function Skills()
 {
@@ -44,6 +45,7 @@ export default function Skills()
             <Skill source={GithubLogo} alt="Github" title="Github" />
             <Skill source={GitLogo} alt="Git" title="Git" />
             <Skill source={FigmaLogo} alt="Figma" title="Figma" />
+            <Skill source={VercelLogo} alt="Vercel" title="Vercel" />
             <Skill source={PostmanLogo} alt="Postman" title="Postman" />
             </Reveal>
             </div>
