@@ -22,9 +22,12 @@ function Leet(){
     const [easyval,seteasyval]=useState("");
     const [medval,setmedval] =useState("");
     const [hardval,sethardval]=useState("");
+    const [contestAttended,setContestAttended]=useState('');
+    const [contestRating,setContestRating]=useState('');
+    const [maxRating,setMaxRating]=useState('');
 
     async function setCard(){
-        const req=await fetch("https://leetcodestats.cyclic.app/akhilg11");
+        const req=await fetch("https://leetcode-api-faisalshohag.vercel.app/akhilg11");
         const data=await req.json();
         settotalq(data.totalQuestions);
         setsolvedq(data.totalSolved);
@@ -37,6 +40,13 @@ function Leet(){
         setrep(data.reputation);
         setCVal();
 
+    }
+    async function setContest(){
+        const req=await fetch("https://alfa-leetcode-api.onrender.com/akhilg11/contest");
+        const data=await req.json();
+        setContestAttended(data.contestAttend);
+        setContestRating(parseInt(data.contestRating.toString().split(".")[0]));
+        setMaxRating(1958);
     }
     function setCVal()
     {
@@ -52,6 +62,7 @@ function Leet(){
     
     useEffect(function(){
         setCard();
+        setContest();
         // Temp();
     })
     return (
@@ -147,7 +158,7 @@ function Leet(){
                 />
                 <div className='det-sub'>
                     <div>Contest Rating</div>
-                    <div>1880</div>
+                    <div>{contestRating}</div>
                 </div>
             </div>
             <div className="details">
@@ -156,7 +167,7 @@ function Leet(){
                 />
                 <div className='det-sub'>
                     <div>Max Rating </div>
-                    <div>1880</div>
+                    <div>{maxRating}</div>
                 </div>
                 
             </div>
@@ -166,7 +177,7 @@ function Leet(){
                 />
                 <div className='det-sub'>
                     <div>Attended </div>
-                    <div>29</div>
+                    <div>{contestAttended}</div>
                 </div>
                 
             </div>
