@@ -1,3 +1,20 @@
 ::-webkit-scrollbar {
     display: none;
 }
+.scrolltotopbtn{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 10px 0 white;
+    font-weight: bolder;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+}
+.scrolltotopbtn:hover{
+    box-shadow: 0px 0px 20px 0 white;
+}
